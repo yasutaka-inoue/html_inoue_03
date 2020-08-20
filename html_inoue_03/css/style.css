@@ -1,0 +1,365 @@
+/* ここから下に記載していく */
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+/* -------------
+    header 
+---------------*/
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    height: 120px;
+    position: fixed;
+    z-index: 10;
+}
+
+.header_logo{
+    width: 270px;
+    padding: 30px;
+}
+
+.nav a{
+    display: block;
+    margin: 50px 0 50px 50px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav{
+    display: flex;
+    font-size: 21px;
+    padding-right: 30px;
+}
+
+.space{
+    padding-bottom: 120px;
+}
+
+/* -------------
+    mainvisual 
+---------------*/
+
+.mainvisual{
+    width: 1200px;
+    height: 450px;
+    background: url(../img/mainbg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.pagetitle-catch{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 175px 0 30px 0;
+    text-align: center;
+}
+
+.pagetitle{
+    color: white;
+    font-size:30px;
+    padding:0 0 175px;
+    text-align: center;
+}
+/* -------------
+    About 
+---------------*/
+.english-title_y{
+    color: #ffd61a;
+    text-align: center;
+    font-size: 24px;
+    margin: 60px 0 30px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.japanese-title{
+    color: #222222;
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.text_about{
+    color: #222222;
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.image-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* -------------
+    Course
+---------------*/
+.english-title_b{
+    color: #222222;
+    text-align: center;
+    font-size: 24px;
+    margin: 60px 0 30px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text_course{
+    color: #222222;
+    font-size: 16px;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.course_box{
+    display: flex;
+    justify-content: center;
+}
+
+.course_img{
+    width: 600px;
+    height: 400px;
+}
+
+.course_textback{
+    background-color: #fafafa;
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+.course_textbox{
+    color: #222222;
+    position: absolute;
+    padding-left: 50px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.course_title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.course_text{
+    font-size: 16px;
+    line-height: 1.5;
+    width: 430px;
+    text-align: justify;
+}
+
+.course_textbox02{
+    color: #222222;
+    position: absolute;
+    padding-right: 50px;
+    top: 50%;
+    right: 0%;
+    transform: translate(0, -50%);
+}
+
+/* -------------
+    News
+---------------*/
+.article{
+    width: 300px;
+    margin: 0 15px 60px 15px;
+    font-size: 16px;
+}
+
+.article:hover{
+    background-color: #ffd61a;
+}
+
+.article_list{
+    display: flex;
+    justify-content: center;
+}
+
+.date{
+    padding: 30px 0 24px 0;
+    font-size: 16px;
+}
+
+.article_text{
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    background-color: #ffd61a;
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    color: white;
+    line-height: 60px;
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+/* -------------
+    Access
+---------------*/
+.access{
+    background-color: #fafafa;
+    padding: 6px 0 60px 0;
+}
+
+.map{
+    width: 1200px;
+    height: 250px;
+    margin-bottom: 60px;
+}
+
+.access-info{
+    padding: 0 0 0 100px;
+}
+
+.access-list{
+    display: flex;  
+    margin-bottom: 30px; 
+    font-size: 16px;
+    color: black;
+    justify-content: center;
+}
+
+.item{
+    width: 180px;
+}
+
+.detail{
+    width: 380px;
+}
+
+/* -------------
+    Contact
+---------------*/
+
+.text_contact{
+    color: #222222;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.form{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.contact-table{
+    margin: 70px 0 0 140px;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+}
+
+.table_row{
+    border-top: solid 2px #bfbfbf;
+    border-bottom: solid 2px #bfbfbf;
+}
+
+.question_1{
+    width: 240px;
+    padding: 8px 64px 8px 16px;
+    line-height: 1.5;
+    vertical-align: center;
+}
+
+.question_2{
+    width: 240px;
+    padding: 8px 64px 8px 16px;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.answer{
+    width: 400px;
+    padding: 8px 0 8px 8px;
+    border-left: solid 2px #bfbfbf;
+}
+
+.answer_textbox{
+    width: 328px;
+    height: 36px;
+    border: solid 1px #bfbfbf;
+    font-size: 16px;
+}
+
+.answer_selectbox{
+    width: 335px;
+    height: 40px;
+    border: solid 1px #bfbfbf;
+    font-size: 16px;
+}
+
+.checklist{
+    padding-bottom: 24px;
+    font-size: 14px;
+}
+
+.checklist_btm{
+    font-size: 14px;
+}
+
+.answer_textarea{
+    width: 330px;
+    border: solid 1px #bfbfbf;
+    resize: none;
+    height: 150px;
+    font-size: 16px;
+}
+
+.submit{
+    display: block;
+    text-align: center;
+    background-color: #ffd61a;
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    color: white;
+    line-height: 60px;
+    margin-top: 30px;
+    border: none;
+}
+
+.submit:hover{
+    background-color: black;
+}
+
+/* -------------
+    Footer
+---------------*/
+.footer{
+    background-color: #707070;
+    height: 76px;
+    margin-top: 140px;
+}
+
+.copyright{
+    padding: 30px 0 30px 0;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
